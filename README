@@ -1,0 +1,6 @@
+In the condition of the market being a perfect random walk, the price change (in %) from an arbitrary time t to t+n should be a normal distribution as n->0. If the market is said to be perfectly efficient, the above situation would be accurate.
+
+The following code attempt to verify this by collecting individual trades and plotting them against price in a volume-weighted histogram during a given time window. We then fit a normal distribution to this data to check the validity of the claim above.
+(Technically we would have to fit a log-normal distribution in a price-volume histogram, but as long as n is small, the difference would be minute)
+
+I have not found a rigorous proof for the statement regarding market random walk being normally distributed, but it should be possible to explain via intuition. 
