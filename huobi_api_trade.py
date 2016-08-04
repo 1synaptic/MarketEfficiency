@@ -14,6 +14,7 @@ import urlparse
 #在此输入您的Key
 ACCESS_KEY = "df0a91d2-5a427d51-2c8afed4-3c41d"
 SECRET_KEY = "11dd47eb-98ce24b3-be34dfb8-5c60a"
+#don't even try it, it's a throwaway account
 
 
 HUOBI_SERVICE_API="https://api.huobi.com/apiv3"
